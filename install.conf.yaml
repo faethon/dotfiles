@@ -5,6 +5,7 @@
 # remove deadlinks in directory
 - clean: ['~']
 
+# setup the links in homedir to dotfiles
 - link:
     ~/.tmux.conf: tmux.conf
     ~/.vim: vim
