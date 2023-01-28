@@ -35,5 +35,5 @@
 #    - ~/.vim/undo-history
 
 - shell:
-    - git pull --recurse-submodules
-    - [git pull --recurse-submodules, Installing submodules]
+  - git submodule update --init --recursive
+  - [git submodule update --init --recursive, Installing submodules]
