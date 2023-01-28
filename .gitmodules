@@ -92,3 +92,9 @@
 [submodule "tmux/plugins/tmux"]
 	path = tmux/plugins/tmux
 	url = https://github.com/dracula/tmux.git
+[submodule "vim/plugged/vim"]
+	path = vim/plugged/vim
+	url = https://github.com/dracula/vim.git
+[submodule "vim/plugged/dracula"]
+	path = vim/plugged/dracula
+	url = https://github.com/dracula/vim.git
