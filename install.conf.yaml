@@ -14,14 +14,13 @@
     # tmux config and plugins
     ~/.tmux.conf: tmux/tmux.conf
     ~/.tmux/plugins: tmux/plugins
-    ~/.tmux/themes/orange.tmuxtheme: tmux/orange.tmuxtheme
 
     # zsh config
     ~/.oh-my-zsh/: zsh/ohmyzsh
     ~/.oh-my-zsh_custom/themes/: zsh/themes
     ~/.oh-my-zsh_custom/plugins/: zsh/plugins
     ~/.zshrc: zsh/zshrc
-    ~/.p10k.zsh: zsh/powerlevel10k/files/.p10k.zsh
+    ~/.p10k.zsh: zsh/p10k.zsh
 
     # bashrc
     ~/.bashrc: bashrc
