@@ -23,3 +23,66 @@
 [submodule "vim/plugged/vim-fugitive"]
 	path = vim/plugged/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "tmux/tmux-continuum"]
+	path = tmux/tmux-continuum
+	url = https://github.com/tmux-plugins/tmux-continuum.git
+[submodule "tmux/tmux/tmux-continuum"]
+	path = tmux/tmux/tmux-continuum
+	url = https://github.com/tmux-plugins/tmux-continuum.git
+[submodule "tmux/tmux/tmux-mem-cpu-load"]
+	path = tmux/tmux/tmux-mem-cpu-load
+	url = https://github.com/thewtex/tmux-mem-cpu-load.git
+[submodule "tmux/tmux/tmux-online-status"]
+	path = tmux/tmux/tmux-online-status
+	url = https://github.com/tmux-plugins/tmux-online-status.git
+[submodule "tmux/tmux/tmux-resurrect"]
+	path = tmux/tmux/tmux-resurrect
+	url = https://github.com/tmux-plugins/tmux-resurrect.git
+[submodule "tmux/tmux/tmux-sensible"]
+	path = tmux/tmux/tmux-sensible
+	url = https://github.com/tmux-plugins/tmux-sensible.git
+[submodule "tmux/tmux/tmux-sidebar"]
+	path = tmux/tmux/tmux-sidebar
+	url = https://github.com/tmux-plugins/tmux-sidebar.git
+[submodule "tmux/tmux/tmux-themepack"]
+	path = tmux/tmux/tmux-themepack
+	url = https://github.com/jimeh/tmux-themepack.git
+[submodule "tmux/tmux/tmux-urlview"]
+	path = tmux/tmux/tmux-urlview
+	url = https://github.com/tmux-plugins/tmux-urlview.git
+[submodule "tmux/tmux/tmux-weather"]
+	path = tmux/tmux/tmux-weather
+	url = https://github.com/xamut/tmux-weather.git
+[submodule "tmux/tmux/tmux-yank"]
+	path = tmux/tmux/tmux-yank
+	url = https://github.com/tmux-plugins/tmux-yank.git
+[submodule "tmux/tmux/tpm"]
+	path = tmux/tmux/tpm
+	url = https://github.com/tmux-plugins/tpm.git
+[submodule "tmux/tmux/tmux-better-mouse-mode"]
+	path = tmux/tmux/tmux-better-mouse-mode
+	url = https://github.com/NHDaly/tmux-better-mouse-mode.git
+[submodule "tmux/plugins/tmux-better-mouse-mode"]
+	path = tmux/plugins/tmux-better-mouse-mode
+	url = https://github.com/NHDaly/tmux-better-mouse-mode.git
+[submodule "tmux/plugins/tmux-themepack"]
+	path = tmux/plugins/tmux-themepack
+	url = https://github.com/jimeh/tmux-themepack.git
+[submodule "tmux/plugins/tmux-urlview"]
+	path = tmux/plugins/tmux-urlview
+	url = https://github.com/tmux-plugins/tmux-urlview.git
+[submodule "tmux/plugins/tmux-sidebar"]
+	path = tmux/plugins/tmux-sidebar
+	url = https://github.com/tmux-plugins/tmux-sidebar.git
+[submodule "tmux/plugins/tmux-sensible"]
+	path = tmux/plugins/tmux-sensible
+	url = https://github.com/tmux-plugins/tmux-sensible.git
+[submodule "tmux/plugins/tmux-resurrect"]
+	path = tmux/plugins/tmux-resurrect
+	url = https://github.com/tmux-plugins/tmux-resurrect.git
+[submodule "tmux/plugins/tmux-continuum"]
+	path = tmux/plugins/tmux-continuum
+	url = https://github.com/tmux-plugins/tmux-continuum.git
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm.git

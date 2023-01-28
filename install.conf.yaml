@@ -11,8 +11,10 @@
 
 # setup the links in homedir to dotfiles
 - link:
-    # tmux config
-    ~/.tmux.conf: tmux.conf
+    # tmux config and plugins
+    ~/.tmux.conf: tmux/tmux.conf
+    ~/.tmux/plugins: tmux/plugins
+    ~/.tmux/themes/orange.tmuxtheme: tmux/orange.tmuxtheme
 
     # zsh config
     ~/.oh-my-zsh/: zsh/ohmyzsh
@@ -30,7 +32,7 @@
 
 
 #- create:
-#    - ~/downloads
+#    - ~/.tmux_resurrect
 #    - ~/.vim/undo-history
 
 #- shell:
