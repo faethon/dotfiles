@@ -1,18 +1,33 @@
 - defaults:
     link:
       relink: true
+      create: true
+      force: true
+          #glob: true
+
 
 # remove deadlinks in directory
 - clean: ['~']
 
 # setup the links in homedir to dotfiles
 - link:
+    # tmux config
     ~/.tmux.conf: tmux.conf
+
+    # zsh config
+    ~/.oh-my-zsh/: zsh/ohmyzsh
+    ~/.oh-my-zsh_custom/themes/: zsh/themes
+    ~/.oh-my-zsh_custom/plugins/: zsh/plugins
+    ~/.zshrc: zsh/zshrc
+    ~/.p10k.zsh: zsh/p10k.zsh
+
+    # bashrc
+    ~/.bashrc: bashrc
+
+    # vim config
     ~/.vim: vim
     ~/.vimrc: vimrc
-    ~/.bashrc: bashrc
-    ~/.zshrc: zshrc
-    ~/.p10k.zsh: p10k.zsh
+
 
 #- create:
 #    - ~/downloads
