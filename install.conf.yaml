@@ -3,8 +3,6 @@
       relink: true
       create: true
       force: true
-          #glob: true
-
 
 # remove deadlinks in directory
 - clean: ['~']
