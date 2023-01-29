@@ -36,4 +36,5 @@
 
 - shell:
   - git submodule update --init --recursive
-  - [git submodule update --init --recursive, Installing submodules]
+    #  - [Installing TMUX plugins]
+    #  - tmux/plugins/tpm/scripts/install_plugins.sh
