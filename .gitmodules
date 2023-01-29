@@ -98,3 +98,6 @@
 [submodule "vim/plugged/dracula"]
 	path = vim/plugged/dracula
 	url = https://github.com/dracula/vim.git
+[submodule "tmux/plugins/treemux"]
+	path = tmux/plugins/treemux
+	url = https://github.com/kiyoon/treemux.git
