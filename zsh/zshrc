@@ -6,7 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:/home/faethon/.config/composer/vendor/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/home/faethon/.local/bin:/home/faethon/.config/composer/vendor/bin:$PATH
 
 # make less more colorful by using pygmentize (should be installed)
 export LESSOPEN='|pygmentize -g %s'
