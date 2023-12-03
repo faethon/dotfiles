@@ -58,4 +58,5 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 " Initialize plugin system
 call plug#end()
 
+let g:dracula_colorterm = 0
 colorscheme dracula
