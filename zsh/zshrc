@@ -125,6 +125,7 @@ source $ZSH/oh-my-zsh.sh
 alias ls='lsd'
 alias ll='ls -l'
 alias la='ls -al'
+alias vi='vim'
 
 #so as not to be disturbed by Ctrl-S ctrl-Q in terminals:
 #stty -ixon
