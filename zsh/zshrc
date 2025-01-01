@@ -11,6 +11,7 @@ export PATH=$HOME/bin:/usr/local/bin:/home/faethon/.local/bin:/home/faethon/.con
 # make less more colorful by using pygmentize (should be installed)
 export LESSOPEN='|pygmentize -P style=dracula -g %s'
 alias more=less
+alias ccat="pygmentize -g -P style=dracula"
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
