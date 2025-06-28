@@ -21,6 +21,10 @@ export ZSH=$HOME/.oh-my-zsh
 export BROWSER=w3m
 #export DISPLAY variable to allow external X
 export DISPLAY=:10.0
+#set term to truecolor 
+export COLORTERM=truecolor
+#set alias to interact with crowdsec docker 
+alias cscli="docker exec -it crowdsec cscli"
 
 # This allows to open a firefox browser (if installed) on a remote system
 # It will require to login from a remote machine with ssh -X
